@@ -45,9 +45,12 @@ body{
 .header-text {
   position: fixed;
   background-color: transparent;
+  background:linear-gradient(to bottom right, rgb(0, 0, 0), rgba(52, 72, 80, 0.527),rgb(0,0,0));;
+
   top: 5%;
-  left: 0;
-  right: 0;
+  left: 5%;
+  right: 5%;
+  width:90%;
   color: rgb(15, 97, 100);
   text-align: center; /* Added */
   box-sizing: border-box;
