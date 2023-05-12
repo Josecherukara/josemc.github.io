@@ -47,6 +47,7 @@ body{
     top: 5%;
     left: 5%;
     width: 90%;
+    text-align: center;
     background-color: transparent;
     z-index: 999;
     padding: 10px;
@@ -61,7 +62,6 @@ body{
 .header-text p{
     font-size: 15px;
     color: rgb(232, 235, 235);
-    left: 160px;
 }
 .buttons{
     position: fixed;
