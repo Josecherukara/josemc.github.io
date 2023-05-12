@@ -126,46 +126,55 @@ body{
     color:rgb(0, 0, 0);
 }
 
-
 #connect {
     background-color: #aeb45d69;
+    position: relative;
+    bottom:0;
     padding: 0.3% 0.3% 0.3% 0.3%;
     margin: 20% 0 0 0;
+    height: 200px; /* Adjust the height value as desired */
   }
-
-#connect .container {
+  #connect .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Added to stack the elements vertically */
+    height: 100%; /* Added to make the container occupy the full height */
+    background-color: transparent;
+  }/*
+  #connect .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
-    background-color:transparent;
-}
-
-#connect h3 {
+    background-color: transparent;
+  }*/
+  
+  #connect h3 {
     font-size: 24px;
     margin-bottom: 10px;
-}
-
-#connect ul {
+  }
+  
+  #connect ul {
     list-style-type: none;
     padding: 0;
-}
-
-#connect li {
+  }
+  
+  #connect li {
     display: inline-block;
     margin: 5px;
-}
-
-#connect a {
+  }
+  
+  #connect a {
     text-decoration: none;
     color: #333;
     padding: 5px 10px;
     border: 1px solid #333;
     border-radius: 5px;
-}
-
-#connect a:hover {
+  }
+  
+  #connect a:hover {
     background-color: #333;
     color: #fff;
-}
+  }

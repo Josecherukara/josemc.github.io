@@ -105,7 +105,7 @@ body{
 }
 
 .chessboard{
-  margin: 30% 10% auto 60%;
+  margin: 20% 10% auto 60%;
 }
 .chessboard h6{
   text-align: center;
@@ -124,3 +124,102 @@ body{
 .canvas-container {
   float: center;
 }
+#connect {
+  background-color: #aeb45d69;
+  position:relative;
+  width:100%;
+  bottom: 0;
+  padding: 0;
+  margin: 20% 0 0 0;
+  height: 200px; /* Adjust the height value as desired */
+}
+#connect .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Added to stack the elements vertically */
+  height: 100%; /* Added to make the container occupy the full height */
+  background-color: transparent;
+}/*
+#connect .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: transparent;
+}
+*/
+#connect h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#connect ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#connect li {
+  display: inline-block;
+  margin: 10px;
+}
+
+#connect a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+#connect a:hover {
+  background-color: #333;
+  color: #fff;
+}
+/*
+
+#connect {
+  background-color: #aeb45d69;
+  padding: 0.3% 0.3% 0.3% 0.3%;
+  margin: 0;
+  height: 40%;
+}
+
+#connect .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color:transparent;
+}
+
+#connect h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#connect ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#connect li {
+  display: inline-block;
+  margin: 5px;
+}
+
+#connect a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+#connect a:hover {
+  background-color: #333;
+  color: #fff;
+}
+*/
