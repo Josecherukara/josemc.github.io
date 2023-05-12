@@ -19,6 +19,16 @@ body{
         padding-bottom: 5%;
         padding-left: 5%;
 }
+.header-text {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 95%;
+    background-color: black;
+    z-index: 999;
+    padding: 10px;
+    box-sizing: border-box;
+}
 .header-text h1{
     font-size: 40px;
     color: rgb(232, 235, 235);
@@ -26,8 +36,17 @@ body{
 .header-text p{
     font-size: 15px;
     color: rgb(232, 235, 235);
-    position: relative;
     left: 60px;
+}
+.buttons{
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    width: 95%;
+    background-color: black;
+    z-index: 999;
+    padding: 10px;
+    box-sizing: border-box;
 }
 #nav{
     display: flex;
@@ -52,9 +71,9 @@ body{
     width: 0;
     height: 3px;
     background: rgb(243, 28, 28);
-    position: absolute;
     left:0;
     bottom:-6px;
+    position: absolute;
     transition: 0.5s;
 }
 #nav ul li a:hover::after{
