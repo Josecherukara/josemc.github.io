@@ -101,10 +101,10 @@ nav ul li a:hover::after {
   padding-left: 20px;
 }
 
-.content {
+.left-column .content {
   margin-top: 0; /* Remove the previous margin-top value */
 }
-.content h1 {
+.left-column .content h1 {
   font-size: 24px;
   font-weight: bold;
   margin-top: 25%;
@@ -112,7 +112,7 @@ nav ul li a:hover::after {
   text-align: center;
 }
 
-.content p {
+.left-column .content p {
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
@@ -120,18 +120,18 @@ nav ul li a:hover::after {
   padding: 3% 3% 3% 3%;
 }
 
-.image-container {
+.right-column .image-container {
   text-align: center;
   margin-top: 20px;
 }
 
-.image-container img {
+.right-column .image-container img {
   width: 100%;
   max-width: 300px;
   height: auto;
 }
 
-.image-container p {
+.right-column .image-container p {
   margin-top: 10px;
   text-align: center;
 }
