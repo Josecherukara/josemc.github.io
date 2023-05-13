@@ -56,16 +56,6 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-/* Main styles */
-main {
-  flex-grow: 1;
-  padding-top: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .name-container {
   position: fixed;
   top: 50px;
@@ -88,6 +78,16 @@ main {
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
+}
+
+/* Main styles */
+main {
+  flex-grow: 1;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
