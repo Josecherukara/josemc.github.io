@@ -82,6 +82,7 @@ nav ul li a:hover::after {
   margin-top: 0;
 }
 
+
 /* Main styles */
 main {
   flex-grow: 1;
