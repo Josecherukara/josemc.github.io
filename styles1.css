@@ -58,15 +58,25 @@ nav ul li a:hover::after {
 
 /* Main styles */
 main {
-  padding-top: 60px; /* Adjust the top padding to push the content below the fixed header */
+  flex-grow: 1;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .name-container {
   position: fixed;
-  /*transform: translate(-50%, -50%);*/
-  text-align: center;
+  top: 50px;
+  left: 10px;
+  text-align: left;
   z-index: 999;
+  width: 100%;
+  padding-left: 20px;
+  box-sizing: border-box;
 }
+
 
 .name-container h1 {
   font-size: 24px;
@@ -140,4 +150,31 @@ footer {
 #connect a:hover {
   background-color: #fff;
   color: #2c3e50;
+}
+/* Media queries for different screen sizes */
+
+/* Small devices (up to 576px) */
+@media (max-width: 576px) {
+  .name-container {
+    position: static;
+    transform: none;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Medium devices (between 577px and 992px) */
+@media (min-width: 577px) and (max-width: 992px) {
+  .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large devices (above 992px) */
+@media (min-width: 993px) {
+  .content {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
