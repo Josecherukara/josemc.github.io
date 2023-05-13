@@ -58,14 +58,15 @@ nav ul li a:hover::after {
 
 .fixed-header .name-container {
   position: fixed;
-  top: 60px;
   left: 10px;
+  bottom: 10px;
   text-align: left;
-  z-index: 999;
+  z-index: 1000;
   width: 100%;
   padding-left: 20px;
   box-sizing: border-box;
   background-color: transparent;
+  top: 10%; /* Adjust the top value as needed */
   color: #000;
 }
 
@@ -82,32 +83,36 @@ nav ul li a:hover::after {
   margin-top: 0;
 }
 
-
 /* Main styles */
-/* Custom styles */
-.main {
-  margin-top: 150px;
+/* Main styles */
+main {
+  flex-grow: 1;
   display: flex;
-  background-color: white;
 }
 
 .left-column {
   flex: 1;
-  padding-right: 20px;
+  background-color: rgb(199, 159, 159);
+  color: white;
+  padding: 20px;
 }
 
 .right-column {
   flex: 1;
-  padding-left: 20px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .left-column .content {
-  margin-top: 0; /* Remove the previous margin-top value */
+  margin-top: 25%; /* Remove the previous margin-top value */
 }
 .left-column .content h1 {
   font-size: 24px;
   font-weight: bold;
-  margin-top: 25%;
   margin-bottom: 5px;
   text-align: center;
 }
@@ -121,18 +126,21 @@ nav ul li a:hover::after {
 }
 
 .right-column .image-container {
-  text-align: center;
-  margin-top: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .right-column .image-container img {
   width: 100%;
   max-width: 300px;
   height: auto;
+  align-self: flex-end;
+  margin-bottom: 10px;
 }
 
 .right-column .image-container p {
-  margin-top: 10px;
   text-align: center;
 }
 
