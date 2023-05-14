@@ -66,8 +66,8 @@ nav ul li a:hover::after {
 
 .main .left-column {
   flex: 1;
-  background: linear-gradient(to right, #ff2a05, #c79999, #9c1835);
-  color: white;
+  background: linear-gradient(to right, #fceae6, #f4f5f0, #f8f7f7);
+  color: black;
   padding: 20px;
 }
 
